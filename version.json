@@ -1,1 +1,1 @@
-{"version": "1.19", "url": "https://github.com/Alexey-Print/probeg-download/raw/main/Probeg.apk", "note": "Журнал учёта в «Проверке связи»; учёт сам перезапускается, если потерял магнитолу."}
+{"version": "1.20", "url": "https://github.com/Alexey-Print/probeg-download/raw/main/Probeg.apk", "note": "Исправлено: учёт больше не теряет магнитолу, когда программа закрыта."}
