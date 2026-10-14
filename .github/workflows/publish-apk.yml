@@ -1,0 +1,40 @@
+name: Опубликовать проверенный APK
+on:
+  push:
+    branches: [main]
+    paths: ['version.json']
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Проверить готовый APK
+        id: apk
+        run: |
+          python3 - <<'PY'
+          import hashlib,json,re,os
+          from pathlib import Path
+          info=json.loads(Path('version.json').read_text())
+          version=info['version']
+          assert re.fullmatch(r'\d+\.\d+',version)
+          apk=Path('Probeg-'+version+'.apk')
+          raw=apk.read_bytes()
+          assert len(raw)==info['universal']['size']
+          assert hashlib.sha256(raw).hexdigest()==info['universal']['sha256']
+          assert Path('Probeg.apk').read_bytes()==raw
+          with open(os.environ['GITHUB_OUTPUT'],'a') as f:
+              f.write('version='+version+'\n')
+          PY
+      - name: Опубликовать APK с именем файла для скачивания
+        env:
+          GH_TOKEN: ${{ github.token }}
+          VERSION: ${{ steps.apk.outputs.version }}
+        run: |
+          tag="v$VERSION"
+          if ! gh release view "$tag" >/dev/null 2>&1; then
+            gh release create "$tag" --target "$GITHUB_SHA" --title "Пробег $VERSION" --notes "Обновление приложения Пробег. Установка поверх прежней версии." --latest
+          fi
+          gh release upload "$tag" "Probeg-$VERSION.apk" Probeg.apk "Probeg-$VERSION.sha256" --clobber
