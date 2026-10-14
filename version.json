@@ -1,1 +1,14 @@
-{"version":"1.61","version_code":1024161,"url":"https://raw.githubusercontent.com/Alexey-Print/probeg-download/main/Probeg-1.61.apk","note":"Крупный текст и компактные кнопки в настройках, выбранные варианты выделены зелёным, названия АЗС отдельной строкой, Назад возвращает на один шаг.","arm64":{"size":20117774,"sha256":"6ab0b7718d5f120593606e23790063779f5fd8571d2418aa7035131860d306bd"},"universal":{"size":37997641,"sha256":"44d9462c480f8edbd8b56a1048d6d2f3b4de650d980de7a19c23df431d9720f4"}}
+{
+  "version": "1.62",
+  "version_code": 1024162,
+  "url": "https://github.com/Alexey-Print/probeg-download/releases/download/v1.62/Probeg-1.62.apk",
+  "note": "Компактные настройки, возврат на один шаг, текущий прогрев, быстрый отклик и отправка ссылки через MAX и почту.",
+  "arm64": {
+    "size": 20130062,
+    "sha256": "140c85bc5e9aa9d73046326db7d62fae6c0de1d6cf0210c1d3d55ffb680e4a88"
+  },
+  "universal": {
+    "size": 38009929,
+    "sha256": "814041e63e3d56def9ac51b6194cf38d934d63962e00eed1ad0a8dfe7a2ecc18"
+  }
+}
