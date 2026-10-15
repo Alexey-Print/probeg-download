@@ -25,6 +25,9 @@ jobs:
           assert len(raw)==info['universal']['size']
           assert hashlib.sha256(raw).hexdigest()==info['universal']['sha256']
           assert Path('Probeg.apk').read_bytes()==raw
+          arm=Path('Probeg-arm64.apk').read_bytes()
+          assert len(arm)==info['arm64']['size']
+          assert hashlib.sha256(arm).hexdigest()==info['arm64']['sha256']
           with open(os.environ['GITHUB_OUTPUT'],'a') as f:
               f.write('version='+version+'\n')
           PY
@@ -37,4 +40,4 @@ jobs:
           if ! gh release view "$tag" >/dev/null 2>&1; then
             gh release create "$tag" --target "$GITHUB_SHA" --title "Пробег $VERSION" --notes "Обновление приложения Пробег. Установка поверх прежней версии." --latest
           fi
-          gh release upload "$tag" "Probeg-$VERSION.apk" Probeg.apk "Probeg-$VERSION.sha256" --clobber
+          gh release upload "$tag" "Probeg-$VERSION.apk" Probeg.apk Probeg-arm64.apk "Probeg-$VERSION.sha256" --clobber
