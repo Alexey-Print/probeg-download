@@ -1,15 +1,13 @@
-# Пробег 1.62
+# Пробег — загрузка APK
 
-Учёт пробега, моточасов, прогрева, замены масла и топлива. Для Android.
+[Скачать последнюю версию](https://github.com/Alexey-Print/probeg-download/releases/latest/download/Probeg.apk)
 
-## [Скачать Пробег 1.62 (APK)](https://github.com/Alexey-Print/probeg-download/releases/download/v1.62/Probeg-1.62.apk)
+[Пробег 1.63](https://github.com/Alexey-Print/probeg-download/releases/download/v1.63/Probeg-1.63.apk)
 
-Установите поверх прежней версии, не удаляя приложение. Данные сохраняются при обновлении с прежним ключом подписи.
+Устанавливайте поверх прежней версии, не удаляя приложение: данные сохраняются.
 
-Для пересылки через MAX и почту отправляйте обычную ссылку:
+Версия 1.63: кнопки и размеры окон магнитолы, переход после прогрева, диагностика, обмен раз в пять минут и подготовка APK к отправке. Автоматического выбора машины по Bluetooth в этой версии ещё нет.
 
-https://github.com/Alexey-Print/probeg-download/releases/latest/download/Probeg.apk
+Размер универсального APK: 38 784 073 байта.
 
-Если встроенный просмотрщик мессенджера не скачивает APK, откройте ссылку во внешнем браузере.
-
-Контрольная сумма SHA-256: `814041e63e3d56def9ac51b6194cf38d934d63962e00eed1ad0a8dfe7a2ecc18`.
+SHA256: `fabfefc00c21dbb5ed4610f67e1690a0a9647738330aca730816d04af07c44aa`

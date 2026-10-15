@@ -1,14 +1,15 @@
 {
-  "version": "1.62",
-  "version_code": 1024162,
-  "url": "https://github.com/Alexey-Print/probeg-download/releases/download/v1.62/Probeg-1.62.apk",
-  "note": "Компактные настройки, возврат на один шаг, текущий прогрев, быстрый отклик и отправка ссылки через MAX и почту.",
+  "version": "1.63",
+  "version_code": 1024163,
+  "url": "https://github.com/Alexey-Print/probeg-download/releases/download/v1.63/Probeg-1.63.apk",
+  "note": "Крупные кнопки магнитолы, переход после прогрева, диагностика, обмен и отправка APK.",
+  "source_commit": "0c109dfbf466cc280e299705697a0db394674903",
   "arm64": {
-    "size": 20130062,
-    "sha256": "140c85bc5e9aa9d73046326db7d62fae6c0de1d6cf0210c1d3d55ffb680e4a88"
+    "size": 20908302,
+    "sha256": "b85865ad19c6adaccd1b971b016083a1ba51f2c7d5c5c172e1ecdf04c6ec24e9"
   },
   "universal": {
-    "size": 38009929,
-    "sha256": "814041e63e3d56def9ac51b6194cf38d934d63962e00eed1ad0a8dfe7a2ecc18"
+    "size": 38784073,
+    "sha256": "fabfefc00c21dbb5ed4610f67e1690a0a9647738330aca730816d04af07c44aa"
   }
 }
