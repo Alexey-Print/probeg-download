@@ -1,15 +1,15 @@
 {
-  "version": "1.63",
-  "version_code": 1024163,
-  "url": "https://github.com/Alexey-Print/probeg-download/releases/download/v1.63/Probeg-1.63.apk",
-  "note": "Крупные кнопки магнитолы, переход после прогрева, диагностика, обмен и отправка APK.",
-  "source_commit": "0c109dfbf466cc280e299705697a0db394674903",
-  "arm64": {
-    "size": 20908302,
-    "sha256": "b85865ad19c6adaccd1b971b016083a1ba51f2c7d5c5c172e1ecdf04c6ec24e9"
-  },
+  "version": "1.64",
+  "version_code": 1024164,
+  "url": "https://raw.githubusercontent.com/Alexey-Print/probeg-download/main/Probeg-1.64.apk",
+  "note": "Автоматический выбор своей машины по магнитоле, отдельный учёт каждой машины и тест в чужой машине без обмена данными.",
+  "source_commit": "fbf59f068393476d358bb247dae1072ed4bdfcea",
   "universal": {
-    "size": 38784073,
-    "sha256": "fabfefc00c21dbb5ed4610f67e1690a0a9647738330aca730816d04af07c44aa"
+    "size": 37604425,
+    "sha256": "317c6972c5bd7b97b03c178cbe604a0aac81c0eb67f7cb96fdf0112acc3bfa85"
+  },
+  "arm64": {
+    "size": 20216078,
+    "sha256": "aea9ce7c671604f570dcd885c8eb4cf0a7fb9b7d225a543744c07e07d2fa03ad"
   }
 }
