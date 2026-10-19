@@ -1,14 +1,14 @@
 {
-  "version": "1.97",
-  "version_code": 1024197,
-  "url": "https://raw.githubusercontent.com/Alexey-Print/probeg-download/main/Probeg-1.97.apk",
-  "note": "Bluetooth — основной обмен с магнитолой, Wi-Fi — запасной; исправления ошибок.",
+  "version": "1.98",
+  "version_code": 1024198,
+  "url": "https://raw.githubusercontent.com/Alexey-Print/probeg-download/main/Probeg-1.98.apk",
+  "note": "Учёт продолжается при подключении к магнитоле после остановки; SMS сигнализации; журнал связи; плавающий счётчик.",
   "universal": {
-    "size": 36830281,
-    "sha256": "da83b120813f05e0995656d4a84c224c3433b78006f219324d55b24efb44d50e"
+    "size": 36838473,
+    "sha256": "272b3c7fc33122f8925368430bc194883ba3ec8090e6ad07b01cea731ae4bcb9"
   },
   "arm64": {
-    "size": 19441934,
-    "sha256": "247eb02157dec8d9295c548efe3eac95083cea616a639a13e42555b48f1a0ed4"
+    "size": 19446030,
+    "sha256": "9dfedf53ba756ad47ccf62b50c27015567bc3906030fdb032a33581450f9c8c1"
   }
 }
