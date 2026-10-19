@@ -1,14 +1,14 @@
 {
-  "version": "1.98",
-  "version_code": 1024198,
-  "url": "https://raw.githubusercontent.com/Alexey-Print/probeg-download/main/Probeg-1.98.apk",
-  "note": "Учёт продолжается при подключении к магнитоле после остановки; SMS сигнализации; журнал связи; плавающий счётчик.",
+  "version": "1.99",
+  "version_code": 1024199,
+  "url": "https://raw.githubusercontent.com/Alexey-Print/probeg-download/main/Probeg-1.99.apk",
+  "note": "Подключение к магнитоле после глушения больше не включает учёт; учёт продолжается, когда машина поехала.",
   "universal": {
     "size": 36838473,
-    "sha256": "272b3c7fc33122f8925368430bc194883ba3ec8090e6ad07b01cea731ae4bcb9"
+    "sha256": "596eca51e4e13dcba148fa4586d3d43c5406e4e417495c9edd48f982cc5b693e"
   },
   "arm64": {
     "size": 19446030,
-    "sha256": "9dfedf53ba756ad47ccf62b50c27015567bc3906030fdb032a33581450f9c8c1"
+    "sha256": "5812f398195b7c53e9b48a66022a37f627c97c07e058e7cd09f36ccc53ca6151"
   }
 }
