@@ -1,15 +1,14 @@
 {
-  "version": "1.64",
-  "version_code": 1024164,
-  "url": "https://raw.githubusercontent.com/Alexey-Print/probeg-download/main/Probeg-1.64.apk",
-  "note": "Автоматический выбор своей машины по магнитоле, отдельный учёт каждой машины и тест в чужой машине без обмена данными.",
-  "source_commit": "fbf59f068393476d358bb247dae1072ed4bdfcea",
+  "version": "1.97",
+  "version_code": 1024197,
+  "url": "https://raw.githubusercontent.com/Alexey-Print/probeg-download/main/Probeg-1.97.apk",
+  "note": "Bluetooth — основной обмен с магнитолой, Wi-Fi — запасной; исправления ошибок.",
   "universal": {
-    "size": 37604425,
-    "sha256": "317c6972c5bd7b97b03c178cbe604a0aac81c0eb67f7cb96fdf0112acc3bfa85"
+    "size": 36830281,
+    "sha256": "da83b120813f05e0995656d4a84c224c3433b78006f219324d55b24efb44d50e"
   },
   "arm64": {
-    "size": 20216078,
-    "sha256": "aea9ce7c671604f570dcd885c8eb4cf0a7fb9b7d225a543744c07e07d2fa03ad"
+    "size": 19441934,
+    "sha256": "247eb02157dec8d9295c548efe3eac95083cea616a639a13e42555b48f1a0ed4"
   }
 }
