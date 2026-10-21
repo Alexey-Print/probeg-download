@@ -1,14 +1,14 @@
 {
-  "version": "2.00",
-  "version_code": 1024200,
-  "url": "https://raw.githubusercontent.com/Alexey-Print/probeg-download/main/Probeg-2.00.apk",
-  "note": "Телефон продолжает учёт, когда магнитола включилась после остановки (по обмену).",
+  "version": "2.01",
+  "version_code": 1024201,
+  "url": "https://raw.githubusercontent.com/Alexey-Print/probeg-download/main/Probeg-2.01.apk",
+  "note": "Поиск лишних моточасов: журнал длиннее, запись скачков, сравнение служба/программа.",
   "universal": {
-    "size": 36838473,
-    "sha256": "b1f7d3b5f9d0cc2eb56de86806967253074807756cd774415fd9899ec8adbb2b"
+    "size": 36842569,
+    "sha256": "b97fac2d1a7d8a371d31ac070f7a3d8398c5d9deddc31b3d09d7cda3a86bdd6a"
   },
   "arm64": {
     "size": 19450126,
-    "sha256": "505ad9e76274ccd73ab2c981ef69875bbb99baf0257d796c1a32403feadad551"
+    "sha256": "aeb54f533db5c5d8908981c16903d45384988220a4dd29f8c431d4c1c6384574"
   }
 }
