@@ -1,14 +1,14 @@
 {
-  "version": "2.02",
-  "version_code": 1024202,
-  "url": "https://raw.githubusercontent.com/Alexey-Print/probeg-download/main/Probeg-2.02.apk",
-  "note": "Средний расход по всем заправкам и пробегу по приборке; плавающий счётчик возвращается после сна магнитолы.",
+  "version": "2.03",
+  "version_code": 1024203,
+  "url": "https://raw.githubusercontent.com/Alexey-Print/probeg-download/main/Probeg-2.03.apk",
+  "note": "Расход по вашим показаниям одометра.",
   "universal": {
     "size": 36842569,
-    "sha256": "8645de8771e56e595925ae96618e13e7711fca1debdd49565e00bb14908ff442"
+    "sha256": "775c90ea5b1868ba7537ec00e4d0702de45ce9cb90e69973ee9caba089cfea77"
   },
   "arm64": {
     "size": 19454222,
-    "sha256": "42784140e96dab32027b7572eca6cd863694076e645229a53d6c7f7c19162f53"
+    "sha256": "cb1b3823d24ef8420304dfef7ae84e3bbb3f94ad7d36ab249251668c1b2d5f9a"
   }
 }
