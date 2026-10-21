@@ -1,14 +1,14 @@
 {
-  "version": "2.01",
-  "version_code": 1024201,
-  "url": "https://raw.githubusercontent.com/Alexey-Print/probeg-download/main/Probeg-2.01.apk",
-  "note": "Поиск лишних моточасов: журнал длиннее, запись скачков, сравнение служба/программа.",
+  "version": "2.02",
+  "version_code": 1024202,
+  "url": "https://raw.githubusercontent.com/Alexey-Print/probeg-download/main/Probeg-2.02.apk",
+  "note": "Средний расход по всем заправкам и пробегу по приборке; плавающий счётчик возвращается после сна магнитолы.",
   "universal": {
     "size": 36842569,
-    "sha256": "b97fac2d1a7d8a371d31ac070f7a3d8398c5d9deddc31b3d09d7cda3a86bdd6a"
+    "sha256": "8645de8771e56e595925ae96618e13e7711fca1debdd49565e00bb14908ff442"
   },
   "arm64": {
-    "size": 19450126,
-    "sha256": "aeb54f533db5c5d8908981c16903d45384988220a4dd29f8c431d4c1c6384574"
+    "size": 19454222,
+    "sha256": "42784140e96dab32027b7572eca6cd863694076e645229a53d6c7f7c19162f53"
   }
 }
