@@ -1,14 +1,14 @@
 {
-  "version": "2.09",
-  "version_code": 1024209,
-  "url": "https://raw.githubusercontent.com/Alexey-Print/probeg-download/main/Probeg-2.09.apk",
-  "note": "«Запущен» от StarLine считается; запоздалые пачки сообщений — нет.",
+  "version": "2.10",
+  "version_code": 1024210,
+  "url": "https://raw.githubusercontent.com/Alexey-Print/probeg-download/main/Probeg-2.10.apk",
+  "note": "Плавающий счётчик сам возвращается после сна магнитолы.",
   "universal": {
     "size": 36850761,
-    "sha256": "727acf6afc9b17728b709367200336c4d590fb484a25da09e81917b05aa05574"
+    "sha256": "57da09addd3c6dbe6a3760d9f81198125b76668d0d351523563f4c826563fa8a"
   },
   "arm64": {
     "size": 19462414,
-    "sha256": "859f6d0018c2baa32a6e1b085f2e14a654f12d6fa9accb58d7a665849982d134"
+    "sha256": "7fd0ab102dc3131e43be4b29cc90223fa8213b26d1d65bc2f28f4d21055230b7"
   }
 }
