@@ -1,14 +1,14 @@
 {
-  "version": "2.07",
-  "version_code": 1024207,
-  "url": "https://raw.githubusercontent.com/Alexey-Print/probeg-download/main/Probeg-2.07.apk",
-  "note": "Лишние моточасы: сон магнитолы и запоздалые сообщения StarLine больше не считаются.",
+  "version": "2.08",
+  "version_code": 1024208,
+  "url": "https://raw.githubusercontent.com/Alexey-Print/probeg-download/main/Probeg-2.08.apk",
+  "note": "Учёт по Bluetooth: связь с магнитолой есть — считаем, нет — пауза.",
   "universal": {
     "size": 36850761,
-    "sha256": "7c796ada16b2d9aca29a3c4a22e854e24b5d733bc0220e0cf367f5f82c3d824c"
+    "sha256": "ae618093ea2c82aee576749bb6d5004d70cf54adee92275c374e78fa67fd3306"
   },
   "arm64": {
     "size": 19462414,
-    "sha256": "933e452404d9ba70474b7e4fa0925a2c3e746dfd4dcba20d5f196696199e378b"
+    "sha256": "9c34dcc257c9ca195c697c0efc522ac170146aca5536f8d6cbe8f0b260873bf5"
   }
 }
