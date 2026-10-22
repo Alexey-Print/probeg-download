@@ -1,14 +1,14 @@
 {
-  "version": "2.03",
-  "version_code": 1024203,
-  "url": "https://raw.githubusercontent.com/Alexey-Print/probeg-download/main/Probeg-2.03.apk",
-  "note": "Расход по вашим показаниям одометра.",
+  "version": "2.04",
+  "version_code": 1024204,
+  "url": "https://raw.githubusercontent.com/Alexey-Print/probeg-download/main/Probeg-2.04.apk",
+  "note": "Не считает моточасы ночью у дома, когда магнитола не уснула.",
   "universal": {
-    "size": 36842569,
-    "sha256": "775c90ea5b1868ba7537ec00e4d0702de45ce9cb90e69973ee9caba089cfea77"
+    "size": 36846665,
+    "sha256": "368ccfc66a06c0c08f12b29807ec27e1cbe5861f05a89431b3d31437d08ac6e7"
   },
   "arm64": {
     "size": 19454222,
-    "sha256": "cb1b3823d24ef8420304dfef7ae84e3bbb3f94ad7d36ab249251668c1b2d5f9a"
+    "sha256": "fb36e79a7e299263bdf0c1efd299c4fd54cfd2b570afcadb81eacc6e59f132ce"
   }
 }
