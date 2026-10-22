@@ -1,14 +1,14 @@
 {
-  "version": "2.08",
-  "version_code": 1024208,
-  "url": "https://raw.githubusercontent.com/Alexey-Print/probeg-download/main/Probeg-2.08.apk",
-  "note": "Учёт по Bluetooth: связь с магнитолой есть — считаем, нет — пауза.",
+  "version": "2.09",
+  "version_code": 1024209,
+  "url": "https://raw.githubusercontent.com/Alexey-Print/probeg-download/main/Probeg-2.09.apk",
+  "note": "«Запущен» от StarLine считается; запоздалые пачки сообщений — нет.",
   "universal": {
     "size": 36850761,
-    "sha256": "ae618093ea2c82aee576749bb6d5004d70cf54adee92275c374e78fa67fd3306"
+    "sha256": "727acf6afc9b17728b709367200336c4d590fb484a25da09e81917b05aa05574"
   },
   "arm64": {
     "size": 19462414,
-    "sha256": "9c34dcc257c9ca195c697c0efc522ac170146aca5536f8d6cbe8f0b260873bf5"
+    "sha256": "859f6d0018c2baa32a6e1b085f2e14a654f12d6fa9accb58d7a665849982d134"
   }
 }
