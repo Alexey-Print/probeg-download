@@ -1,14 +1,14 @@
 {
-  "version": "2.04",
-  "version_code": 1024204,
-  "url": "https://raw.githubusercontent.com/Alexey-Print/probeg-download/main/Probeg-2.04.apk",
-  "note": "Не считает моточасы ночью у дома, когда магнитола не уснула.",
+  "version": "2.05",
+  "version_code": 1024205,
+  "url": "https://raw.githubusercontent.com/Alexey-Print/probeg-download/main/Probeg-2.05.apk",
+  "note": "Магнитола не считает ночь; исправление моточасов за день.",
   "universal": {
-    "size": 36846665,
-    "sha256": "368ccfc66a06c0c08f12b29807ec27e1cbe5861f05a89431b3d31437d08ac6e7"
+    "size": 36850761,
+    "sha256": "b6f6ea96ff2fcc3c7f43d132092c3a300083b223b6cfa2849044c18d211da0b7"
   },
   "arm64": {
-    "size": 19454222,
-    "sha256": "fb36e79a7e299263bdf0c1efd299c4fd54cfd2b570afcadb81eacc6e59f132ce"
+    "size": 19458318,
+    "sha256": "d5b191b480213fb85b59f08e586ab4ab738cfb2871e19c041328eebaa025e60d"
   }
 }
