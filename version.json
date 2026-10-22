@@ -1,14 +1,14 @@
 {
-  "version": "2.06",
-  "version_code": 1024206,
-  "url": "https://raw.githubusercontent.com/Alexey-Print/probeg-download/main/Probeg-2.06.apk",
-  "note": "Сон магнитолы больше не добавляется к моточасам.",
+  "version": "2.07",
+  "version_code": 1024207,
+  "url": "https://raw.githubusercontent.com/Alexey-Print/probeg-download/main/Probeg-2.07.apk",
+  "note": "Лишние моточасы: сон магнитолы и запоздалые сообщения StarLine больше не считаются.",
   "universal": {
     "size": 36850761,
-    "sha256": "876286517794c64e978dc3be43ae0cd22c806b808e3dfa1114b8b08315aa35dd"
+    "sha256": "7c796ada16b2d9aca29a3c4a22e854e24b5d733bc0220e0cf367f5f82c3d824c"
   },
   "arm64": {
     "size": 19462414,
-    "sha256": "6ae514c74d496bdd65a2fd1d4b182a8fe46136fdc45a329a38dad14dadaabcec"
+    "sha256": "933e452404d9ba70474b7e4fa0925a2c3e746dfd4dcba20d5f196696199e378b"
   }
 }
