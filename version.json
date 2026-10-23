@@ -1,14 +1,14 @@
 {
-  "version": "2.12",
-  "version_code": 1024212,
-  "url": "https://raw.githubusercontent.com/Alexey-Print/probeg-download/main/Probeg-2.12.apk",
-  "note": "Средний расход крупно на главном экране.",
+  "version": "2.13",
+  "version_code": 1024213,
+  "url": "https://raw.githubusercontent.com/Alexey-Print/probeg-download/main/Probeg-2.13.apk",
+  "note": "Расход: залитые литры / пройденные км, без полного бака.",
   "universal": {
     "size": 36850761,
-    "sha256": "00b4adb6855876127e32548a54b32bd4467c469680ac9b5331f8aa18a67e2573"
+    "sha256": "18e4d8af854d63598b34574fb34cbb3543c3c62f4fe005a4ddd110d6293300b4"
   },
   "arm64": {
     "size": 19462414,
-    "sha256": "d8c0197edeedcecf062a6eb778e1c5c67a28664fe30bc0a6ac6051ad4b727cde"
+    "sha256": "b111e4ee2c1358bbb3eb1f9cd6359a285516342935ee70f6649754e0ca683778"
   }
 }
