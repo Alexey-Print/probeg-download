@@ -1,14 +1,14 @@
 {
-  "version": "2.11",
-  "version_code": 1024211,
-  "url": "https://raw.githubusercontent.com/Alexey-Print/probeg-download/main/Probeg-2.11.apk",
-  "note": "Замена масла обнуляет и моточасы.",
+  "version": "2.12",
+  "version_code": 1024212,
+  "url": "https://raw.githubusercontent.com/Alexey-Print/probeg-download/main/Probeg-2.12.apk",
+  "note": "Средний расход крупно на главном экране.",
   "universal": {
     "size": 36850761,
-    "sha256": "5909e9d81c034b17e0542c3b1f090f87f47e59fbc202968afc7cfa396b06936b"
+    "sha256": "00b4adb6855876127e32548a54b32bd4467c469680ac9b5331f8aa18a67e2573"
   },
   "arm64": {
     "size": 19462414,
-    "sha256": "42550fd6e7daf19aaa4c101a3462d77f80c9650d195d3aea8bdb9a8811dabdfc"
+    "sha256": "d8c0197edeedcecf062a6eb778e1c5c67a28664fe30bc0a6ac6051ad4b727cde"
   }
 }
