@@ -1,14 +1,14 @@
 {
-  "version": "2.10",
-  "version_code": 1024210,
-  "url": "https://raw.githubusercontent.com/Alexey-Print/probeg-download/main/Probeg-2.10.apk",
-  "note": "Плавающий счётчик сам возвращается после сна магнитолы.",
+  "version": "2.11",
+  "version_code": 1024211,
+  "url": "https://raw.githubusercontent.com/Alexey-Print/probeg-download/main/Probeg-2.11.apk",
+  "note": "Замена масла обнуляет и моточасы.",
   "universal": {
     "size": 36850761,
-    "sha256": "57da09addd3c6dbe6a3760d9f81198125b76668d0d351523563f4c826563fa8a"
+    "sha256": "5909e9d81c034b17e0542c3b1f090f87f47e59fbc202968afc7cfa396b06936b"
   },
   "arm64": {
     "size": 19462414,
-    "sha256": "7fd0ab102dc3131e43be4b29cc90223fa8213b26d1d65bc2f28f4d21055230b7"
+    "sha256": "42550fd6e7daf19aaa4c101a3462d77f80c9650d195d3aea8bdb9a8811dabdfc"
   }
 }
