@@ -1,14 +1,14 @@
 {
-  "version": "2.13",
-  "version_code": 1024213,
-  "url": "https://raw.githubusercontent.com/Alexey-Print/probeg-download/main/Probeg-2.13.apk",
-  "note": "Расход: залитые литры / пройденные км, без полного бака.",
+  "version": "2.14",
+  "version_code": 1024214,
+  "url": "https://raw.githubusercontent.com/Alexey-Print/probeg-download/main/Probeg-2.14.apk",
+  "note": "Сверка пробега с приборкой и поправка GPS.",
   "universal": {
-    "size": 36850761,
-    "sha256": "18e4d8af854d63598b34574fb34cbb3543c3c62f4fe005a4ddd110d6293300b4"
+    "size": 36858953,
+    "sha256": "31bf6c130aa926118e4030c8f53102e84bab47ebb0e66b4f3c51376de12f4e3d"
   },
   "arm64": {
-    "size": 19462414,
-    "sha256": "b111e4ee2c1358bbb3eb1f9cd6359a285516342935ee70f6649754e0ca683778"
+    "size": 19466510,
+    "sha256": "ed4bb3f6b2c6d719696bc948b5222a6e8ca9d45e8e78b316cee22c106ffb2314"
   }
 }
