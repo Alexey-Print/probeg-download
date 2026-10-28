@@ -1,14 +1,14 @@
 {
-  "version": "2.18",
-  "version_code": 1024218,
-  "url": "https://raw.githubusercontent.com/Alexey-Print/probeg-download/main/Probeg-2.18.apk",
-  "note": "Расход — по пробегу с приборки, вписанному в заправки; всё из 2.17.",
+  "version": "2.19",
+  "version_code": 1024219,
+  "url": "https://raw.githubusercontent.com/Alexey-Print/probeg-download/main/Probeg-2.19.apk",
+  "note": "Вверху «Топлива» — вид бензина и цена последней заправки.",
   "universal": {
     "size": 36858953,
-    "sha256": "1f6b5680fa953fff5ee15c813a1e51c4d31c683b029d324227082826ca3082b4"
+    "sha256": "f330564bb13f804e9e77e2e05b2b09914406acb7271d760711b02d456b2f7405"
   },
   "arm64": {
     "size": 19470606,
-    "sha256": "a9207cfc87038879d295524a38e83498366fca5216d1e6b832445dfde37b5e87"
+    "sha256": "14717a36e840ff9b6f05172c68dc535a17addaf8b8772496a641a5181577203a"
   }
 }
