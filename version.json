@@ -1,14 +1,14 @@
 {
-  "version": "2.17",
-  "version_code": 1024217,
-  "url": "https://raw.githubusercontent.com/Alexey-Print/probeg-download/main/Probeg-2.17.apk",
-  "note": "Дата замены масла словами; «1 км стоит … ₽» в Топливе.",
+  "version": "2.18",
+  "version_code": 1024218,
+  "url": "https://raw.githubusercontent.com/Alexey-Print/probeg-download/main/Probeg-2.18.apk",
+  "note": "Расход — по пробегу с приборки, вписанному в заправки; всё из 2.17.",
   "universal": {
-    "size": 37162057,
-    "sha256": "052b1fc45a1abc9fe01f76fbd5b47df0d0de247b86405a7b06e3cb0e106a15c6"
+    "size": 36858953,
+    "sha256": "1f6b5680fa953fff5ee15c813a1e51c4d31c683b029d324227082826ca3082b4"
   },
   "arm64": {
-    "size": 19667214,
-    "sha256": "0b6324a3c4fae43a945deb2e645e95b0a85ece74f39f27e2a9790a1753080e49"
+    "size": 19470606,
+    "sha256": "a9207cfc87038879d295524a38e83498366fca5216d1e6b832445dfde37b5e87"
   }
 }
