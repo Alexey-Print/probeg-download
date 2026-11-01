@@ -1,14 +1,14 @@
 {
-  "version": "2.19",
-  "version_code": 1024219,
-  "url": "https://raw.githubusercontent.com/Alexey-Print/probeg-download/main/Probeg-2.19.apk",
-  "note": "Вверху «Топлива» — вид бензина и цена последней заправки.",
+  "version": "2.20",
+  "version_code": 1024220,
+  "url": "https://raw.githubusercontent.com/Alexey-Print/probeg-download/main/Probeg-2.20.apk",
+  "note": "Точный расход — от 1000 км по приборке; нажмите на «Расход», чтобы увидеть расчёт.",
   "universal": {
-    "size": 36858953,
-    "sha256": "f330564bb13f804e9e77e2e05b2b09914406acb7271d760711b02d456b2f7405"
+    "size": 36863049,
+    "sha256": "51ba8f638d9d07fd13eb19007dc920bff89261860861c198533009ef0b520902"
   },
   "arm64": {
-    "size": 19470606,
-    "sha256": "14717a36e840ff9b6f05172c68dc535a17addaf8b8772496a641a5181577203a"
+    "size": 19474702,
+    "sha256": "821e1ef3ec1f09e8e2f54205420da731d78a5f07c19de0f3f2ce7426b2dc3bce"
   }
 }
