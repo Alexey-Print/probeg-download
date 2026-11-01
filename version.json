@@ -1,14 +1,14 @@
 {
-  "version": "2.20",
-  "version_code": 1024220,
-  "url": "https://raw.githubusercontent.com/Alexey-Print/probeg-download/main/Probeg-2.20.apk",
-  "note": "Точный расход — от 1000 км по приборке; нажмите на «Расход», чтобы увидеть расчёт.",
+  "version": "2.21",
+  "version_code": 1024221,
+  "url": "https://raw.githubusercontent.com/Alexey-Print/probeg-download/main/Probeg-2.21.apk",
+  "note": "Дубли заправок убираются; точный расход от 500 км; сверка пробега надёжнее.",
   "universal": {
-    "size": 36863049,
-    "sha256": "51ba8f638d9d07fd13eb19007dc920bff89261860861c198533009ef0b520902"
+    "size": 36867145,
+    "sha256": "fdc599824dc381d55dc2bd56ebda4257b37a1e339c592ae93b7baa24cfbf8621"
   },
   "arm64": {
-    "size": 19474702,
-    "sha256": "821e1ef3ec1f09e8e2f54205420da731d78a5f07c19de0f3f2ce7426b2dc3bce"
+    "size": 19478798,
+    "sha256": "434d0ca5acb8dfccc3273717c9016e8845027e9a01f5427075a0290a07baf10f"
   }
 }
