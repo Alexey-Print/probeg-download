@@ -1,14 +1,14 @@
 {
-  "version": "2.26",
-  "version_code": 1024226,
-  "url": "https://raw.githubusercontent.com/Alexey-Print/probeg-download/main/Probeg-2.26.apk",
-  "note": "Сообщения поверх экрана на магнитоле; не просим «проверить моточасы»; строки сообщений не обрезаются.",
+  "version": "2.27",
+  "version_code": 1024227,
+  "url": "https://raw.githubusercontent.com/Alexey-Print/probeg-download/main/Probeg-2.27.apk",
+  "note": "Если машину завели без вас — «Мотор работает — вы не в машине» вместо «прогрева».",
   "universal": {
     "size": 36883529,
-    "sha256": "6fe4c7ece9a9c2648abd25476234e11af0f7f99604935d76b142d32730005a62"
+    "sha256": "67e44fce4dcd661d7146689cfacf1d28bbe47a337ef03d0a5a0229517447bc4b"
   },
   "arm64": {
     "size": 19495182,
-    "sha256": "231a075d8c8601993aaa867f670f4279ad759fbfb76ef64ed171730dac2fe342"
+    "sha256": "2dc85bc32a33c222af9b10e272ce54d7152390cc9b1fadbbdf9acc7012abe88d"
   }
 }
