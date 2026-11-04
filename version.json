@@ -1,14 +1,14 @@
 {
-  "version": "2.22",
-  "version_code": 1024222,
-  "url": "https://raw.githubusercontent.com/Alexey-Print/probeg-download/main/Probeg-2.22.apk",
-  "note": "Экран «Разрешения для учёта»; на магнитоле учёт просыпается через доступ к уведомлениям.",
+  "version": "2.23",
+  "version_code": 1024223,
+  "url": "https://raw.githubusercontent.com/Alexey-Print/probeg-download/main/Probeg-2.23.apk",
+  "note": "Запуск без связи с магнитолой — жёлтый прогрев до таймера; подключились — обычный учёт.",
   "universal": {
     "size": 36871241,
-    "sha256": "131c28a6d1ab80c9012d45aec9099d8b23bdb78dcc3904e02790a436ad355513"
+    "sha256": "467909bd23c1d0cd2f3185e53a858187d10e46e138391575f181a770fbcc4ad7"
   },
   "arm64": {
     "size": 19482894,
-    "sha256": "75b4851597785cc4e76a25cde20b1e197a2f35cb6fca457c121fa4c0b80a3c3b"
+    "sha256": "a4f16e8a07d0c50e3e59f9698a47d900686069a0ad02868c97389a20cb67f2f3"
   }
 }
