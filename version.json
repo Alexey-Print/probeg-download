@@ -1,14 +1,14 @@
 {
-  "version": "2.25",
-  "version_code": 1024225,
-  "url": "https://raw.githubusercontent.com/Alexey-Print/probeg-download/main/Probeg-2.25.apk",
-  "note": "Колокольчик: цифра только для новых; заправка «≈ 22 л — верно?»; поле литров видно над клавиатурой.",
+  "version": "2.26",
+  "version_code": 1024226,
+  "url": "https://raw.githubusercontent.com/Alexey-Print/probeg-download/main/Probeg-2.26.apk",
+  "note": "Сообщения поверх экрана на магнитоле; не просим «проверить моточасы»; строки сообщений не обрезаются.",
   "universal": {
-    "size": 36879433,
-    "sha256": "903dd8b7f6beb68f62890cb4ca67db0466a87834f5ace221007f114e3f8de013"
+    "size": 36883529,
+    "sha256": "6fe4c7ece9a9c2648abd25476234e11af0f7f99604935d76b142d32730005a62"
   },
   "arm64": {
-    "size": 19491086,
-    "sha256": "f6c613536e9b7ea0355fd57f9d4dbe11884c9a8fd4c3c3388279a4b35e30b6cb"
+    "size": 19495182,
+    "sha256": "231a075d8c8601993aaa867f670f4279ad759fbfb76ef64ed171730dac2fe342"
   }
 }
