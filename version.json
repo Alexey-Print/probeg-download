@@ -1,14 +1,14 @@
 {
-  "version": "2.23",
-  "version_code": 1024223,
-  "url": "https://raw.githubusercontent.com/Alexey-Print/probeg-download/main/Probeg-2.23.apk",
-  "note": "Запуск без связи с магнитолой — жёлтый прогрев до таймера; подключились — обычный учёт.",
+  "version": "2.24",
+  "version_code": 1024224,
+  "url": "https://raw.githubusercontent.com/Alexey-Print/probeg-download/main/Probeg-2.24.apk",
+  "note": "Колокольчик сообщений в шапке: сверка, заправки, моточасы, масло, разрешения.",
   "universal": {
-    "size": 36871241,
-    "sha256": "467909bd23c1d0cd2f3185e53a858187d10e46e138391575f181a770fbcc4ad7"
+    "size": 36879433,
+    "sha256": "c54a2e3e45a19cbf09a80ff04812622a287d3d1643831ea0d06bff81a8d83741"
   },
   "arm64": {
-    "size": 19482894,
-    "sha256": "a4f16e8a07d0c50e3e59f9698a47d900686069a0ad02868c97389a20cb67f2f3"
+    "size": 19491086,
+    "sha256": "5421158b36f4f6ec10a136476369758dab6b2464f0c9901cf64f23b33f54e615"
   }
 }
