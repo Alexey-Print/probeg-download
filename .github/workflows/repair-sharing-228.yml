@@ -1,0 +1,32 @@
+name: Repair permanent sharing link for verified 2.28
+on:
+  push:
+    branches: [main]
+    paths: ['.github/workflows/repair-sharing-228.yml']
+permissions:
+  contents: write
+jobs:
+  publish-existing-apk:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          filter: blob:none
+          sparse-checkout-cone-mode: false
+          sparse-checkout: |
+            /Probeg.apk
+            /version.json
+      - name: Publish only the verified permanent APK
+        shell: bash
+        run: |
+          set -euo pipefail
+          test "$(python3 -c 'import json; print(json.load(open("version.json"))["version"])')" = "2.28"
+          curl --fail --location --retry 2 --max-time 120 --output "$RUNNER_TEMP/Probeg-2.28.apk" https://github.com/Alexey-Print/probeg-download/releases/download/v2.28/Probeg-2.28.apk
+          echo "a8514efd07b13339e7eef1f85b7b9f6319ea017f2d2e9eada5bff8af789c2744  $RUNNER_TEMP/Probeg-2.28.apk" | sha256sum --check
+          test "$(stat -c %s "$RUNNER_TEMP/Probeg-2.28.apk")" = 36879421
+          cp "$RUNNER_TEMP/Probeg-2.28.apk" Probeg.apk
+          git add -- Probeg.apk
+          test "$(git diff --cached --name-only)" = "Probeg.apk"
+          git -c user.name='github-actions[bot]' -c user.email='41898282+github-actions[bot]@users.noreply.github.com' commit -m 'Restore permanent sharing APK 2.28 [skip ci]'
+          git push origin HEAD:main
