@@ -1,14 +1,10 @@
 {
-  "version": "2.27",
-  "version_code": 1024227,
-  "url": "https://raw.githubusercontent.com/Alexey-Print/probeg-download/main/Probeg-2.27.apk",
-  "note": "Если машину завели без вас — «Мотор работает — вы не в машине» вместо «прогрева».",
+  "version": "2.28",
+  "version_code": 1024228,
+  "url": "https://github.com/Alexey-Print/probeg-download/releases/download/v2.28/Probeg-2.28.apk",
+  "note": "Компактный счётчик: статус сверху, км/час, колокольчик. Восстановление окна Honda после пробуждения; проверка на машине ещё нужна.",
   "universal": {
-    "size": 36883529,
-    "sha256": "67e44fce4dcd661d7146689cfacf1d28bbe47a337ef03d0a5a0229517447bc4b"
-  },
-  "arm64": {
-    "size": 19495182,
-    "sha256": "2dc85bc32a33c222af9b10e272ce54d7152390cc9b1fadbbdf9acc7012abe88d"
+    "size": 36879421,
+    "sha256": "a8514efd07b13339e7eef1f85b7b9f6319ea017f2d2e9eada5bff8af789c2744"
   }
 }
