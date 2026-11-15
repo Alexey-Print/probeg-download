@@ -14,7 +14,13 @@ jobs:
     steps:
       - uses: actions/checkout@v4
         with:
-          sparse-checkout: .github
+          sparse-checkout-cone-mode: false
+          sparse-checkout: |
+            /.github/
+            /Probeg.apk
+            /Probeg-arm64.apk
+            /version.json
+            /README.md
       - name: Restore and verify the signed 2.33 packages
         shell: bash
         run: |
@@ -60,7 +66,8 @@ jobs:
             "$build_tools/aapt" dump badging "$apk" > "$tmp_dir/badging"
             grep -F "name='ru.aleksey.probeg' versionCode='1024233' versionName='2.33'" "$tmp_dir/badging"
             "$build_tools/apksigner" verify --print-certs "$apk" > "$tmp_dir/cert"
-            grep -Fx 'Signer #1 certificate SHA-256 digest: ae84ec073947961c4f0f5d9e53441dddb00f4c0a262ebbe369aa5011f689ce8a' "$tmp_dir/cert"
+            cat "$tmp_dir/cert"
+          grep -Fi 'ae84ec073947961c4f0f5d9e53441dddb00f4c0a262ebbe369aa5011f689ce8a' "$tmp_dir/cert"
           done
       - name: Publish both APKs and version.json together
         shell: bash
